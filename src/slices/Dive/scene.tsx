@@ -15,7 +15,7 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 type SkyDiveProps = {
     sentence: string | null;
-    flavor: Content.SkyDiveSliceDefaultPrimary["flavor"];
+    flavor: Content.DiveSliceDefaultPrimary["flavor"];
 };
 
 export default function Scene({ sentence, flavor }: SkyDiveProps) {
@@ -138,7 +138,7 @@ export default function Scene({ sentence, flavor }: SkyDiveProps) {
             <group rotation={[0, 0, 0.5]}>
                 <FloatingCan
                     ref={canRef}
-                    flavor={flavor}
+                    flavour={flavor}
 
                     floatIntensity={3}
                     floatSpeed={3}

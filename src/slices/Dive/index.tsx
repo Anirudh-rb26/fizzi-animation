@@ -21,7 +21,7 @@ const Dive: FC<DiveProps> = ({ slice }) => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      <h2 className="sr-only">{slice.primary.senntence}</h2>
+      <h2 className="sr-only">{slice.primary.sentence}</h2>
       <View className="h-screen w-screen">
         <Scene flavor={slice.primary.flavor} sentence={slice.primary.sentence} />
       </View>

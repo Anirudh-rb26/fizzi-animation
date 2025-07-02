@@ -132,7 +132,7 @@ const Carousel = ({ slice }: CarouselProps): JSX.Element => {
           <p>{FLAVORS[currentFlavorIndex].name}</p>
         </div>
         <div className="mt-2 text-2xl font-normal opacity-90">
-          <PrismicRichText field={slice.primary.price_copy} />
+          <PrismicRichText field={slice.primary.pricecopy} />
         </div>
       </div>
     </section>
